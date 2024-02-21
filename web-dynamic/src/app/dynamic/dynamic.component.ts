@@ -15,4 +15,14 @@ export class DynamicComponent implements OnInit{
   closeDiv() {
     this.showDiv = false;
   }
+  user = {
+    firstName: '',
+    lastName: '',
+    age: 0,
+    gender: ''
+  };
+
+  onSubmit() {
+    console.log('Form submitted:', this.user);
+  }
 }

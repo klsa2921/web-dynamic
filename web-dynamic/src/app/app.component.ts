@@ -18,16 +18,6 @@ export class AppComponent implements AfterViewInit {
     {
       name:'button1',
       value:'Dynamic component for button1'
-    },
-    {
-      name:'button2',
-      value:'Dynamic component for button2'
-    },
-    {
-      name:'button3',
-      value:{
-        firstname:'Hello klsa'
-      }
     }
   ]
   @ViewChild('dynamicContainer', {read: ViewContainerRef, static: false}) dynamicContainer!: ViewContainerRef;
