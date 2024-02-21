@@ -1,0 +1,11 @@
+<div style="display: flex; height: 100vh;">
+  <div style="width: 30%;">
+    <button (click)="createComponent('button1', 'Component 1', 'Content for component 1')">Button 1</button>
+    <button (click)="createComponent('button2', 'Component 2', 'Content for component 2')">Button 2</button>
+    <button (click)="createComponent('button3', 'Component 3', 'Content for component 3')">Button 3</button>
+    <button (click)="createComponent('button4', 'Component 4', 'Content for component 4')">Button 4</button>
+  </div>
+  <div style="width: 70%; height: 100%; overflow-y: auto; display: flex; flex-direction: column;">
+    <ng-container #dynamicComponentContainer></ng-container>
+  </div>
+</div>
