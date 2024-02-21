@@ -1,0 +1,10 @@
+<div class="custom-div" *ngIf="showDiv">
+  <span class="close-icon" (click)="closeDiv()">&times;</span>
+  <p *ngIf="name.firstname; else noFirstName">{{name.firstname}}</p>
+  <ng-template #noFirstName>
+    <p>{{name}}</p>
+  </ng-template>
+</div>
+
+
+

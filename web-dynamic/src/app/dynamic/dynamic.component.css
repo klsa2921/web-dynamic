@@ -1,0 +1,15 @@
+.custom-div {
+  position: relative;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}

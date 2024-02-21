@@ -1,0 +1,23 @@
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.buttons-container button {
+  margin-bottom: 10px;
+}
+
+.content-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.column {
+  flex: 1;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
